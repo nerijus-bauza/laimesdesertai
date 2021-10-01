@@ -18,9 +18,9 @@
         <div class="nav__logo-text">Laimės desertai</div>        
       </div>
       <ul class="nav__items">
-        <li class="nav__item"><a href="#about" class="nav__link">Apie</a></li>
         <li class="nav__item"><a href="#cakes" class="nav__link">Tortai</a></li>
         <li class="nav__item"><a href="#desserts" class="nav__link">Desertai</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">Apie</a></li>
         <li class="nav__item"><a href="#contacts" class="nav__link">Kontaktai</a></li>
       </ul>
     </nav>
@@ -35,15 +35,32 @@
     </section>
 
     <!-- Cakes -->
-    <section class="cakes" id="cakes">
-      <h2 class="cakes__title">Tortai</h2>
-      <div class="cards">
+    <section class="product-group" id="cakes">
+      <h2 class="product-group__title">Tortai</h2>
+      <div class="product-group__cards">
         <div class="card">          
           <img class="card__img" src="./images/cakes/001-01_Mocartas.jpg" alt="tortas Mocartas">
+          
           <div class="card__text">
+            
             <h3 class="card__name">Mocartas</h3>
+            
             <div class="card__description">Vanilinis biskvitas, migdoliniai morengai, šokoladinis kremas bei baltojo ir juodojo šokolado musai</div>
-            <div class="card__ingredients">Sudėtis</div>
+            
+            <div class="card__more-info">
+              <div class="button-popup card__composition-button">Sudėtis</div>
+              <div class="card__composition">                
+                <p class="card__composition-p"><em>Biskvitas: </em><strong>kvietiniai miltai</strong>, cukrus, <strong>kiaušiniai</strong>, rafinuotas saulėgrąžų aliejus, vanilinis cukrus (cukrus, kvapioji medžiaga (vanilinas), ekstrahuoti vanilės milteliai (1%), vanilės milteliai (0,6%)), kepimo milteliai (kildymo medžiaga (E450(i), E500(ii), bulvių krakmolas).</p>
+                <p class="card__composition-p"><em>Morengas: </em><strong>migdolų riešutai</strong>, cukrus, cukraus pudra, <strong>kiaušinių baltymai</strong>.</p>
+                <p class="card__composition-p"><em>Putėsiai: </em><strong>grietinėlė</strong> 35% rieb., pieniškas šokoladas, kakavos sausųjų medžiagų – ne mažiau kaip 40% (cukrus, kakavos masė, kakavos sviestas, <strong>nenugriebto pieno milteliai</strong>, <strong>laktozė</strong>, emulsiklis: saulėgrąžų lecitinai, vanilės ekstraktas), juodasis šokoladas, kakavos sausųjų medžiagų – ne mažiau kaip 52% (cukrus, kakavos masė, kakavos sviestas, emulsiklis: saulėgrąžų lecitinas, natūrali vanilės kvapioji medžiaga), baltasis šokoladas (cukrus, <strong>nugriebto pieno milteliai</strong>, kakavos sviestas, emulsiklis: saulėgrąžų lecitinas, vanilės ekstraktas).</p>
+                <p class="card__composition-p"><em>Šokoladinis kremas: </em><strong>grietinėlė</strong> 35% rieb., juodasis šokoladas, kakavos sausųjų medžiagų – ne mažiau kaip 52% (cukrus, kakavos masė, kakavos sviestas, emulsiklis: saulėgrąžų lecitinas, natūrali vanilės kvapioji medžiaga), <strong>sviestas</strong>.</p>
+              </div>
+              <div class="button-popup card__allergens-button">Alergenai</div>
+              <div class="card__allergens">
+                <p class="card__allergens-p">kvietiniai miltai, kiaušiniai, migdolų riešutai, kiaušinių baltymai, grietinėlė, nenugriebto pieno milteliai, laktozė, nugriebto pieno milteliai, sviestas. Gali turėti įvairių riešutų, sojos, žemės riešutų pėdsakų.</p>
+              </div>
+            </div>
+            
             <div class="card__price-block">
               <div class="card__price">21</div>
               <div class="card__price">20</div>
@@ -58,14 +75,14 @@
     </section>
 
     <!-- Desserts -->
-    <section class="desserts" id="desserts">
-      <h2 class="desserts__title">Desertai</h2>
+    <section class="product-group" id="desserts">
+      <h2 class="product-group__title">Desertai</h2>
       
     </section>
 
     <!-- About -->
     <section class="about" id="about">
-
+      <h2 class="about__title">Apie</h2>
     </section>
 
  
@@ -74,7 +91,7 @@
   
   <!-- Footer -->
   <footer class="footer" id="contacts">
-    <h2 class="contacts">Susisiekime</h2>
+    <h2 class="footer__title">Susisiekime</h2>
   </footer>  
   
 </body>

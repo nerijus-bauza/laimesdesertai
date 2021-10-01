@@ -3,3 +3,12 @@
 *::after {
   box-sizing: border-box;
 }
+:root {
+  --color-main: black;
+}
+
+.nav__logo-img {
+  width: 90px;
+  fill: var(--color-main);
+
+}

@@ -7,8 +7,6 @@
   --color-main: black;
 }
 
-.nav__logo-img {
-  /* width: 90px; */
+.nav__logo-img {  
   fill: var(--color-main);
-
 }
